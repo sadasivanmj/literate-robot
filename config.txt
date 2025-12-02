@@ -1,0 +1,59 @@
+# ============================================
+# Hydrogen Photoionization Configuration
+# ============================================
+# Edit this file to control what runs
+# Use: yes/no or true/false
+
+[RUN_CONTROL]
+solve_gasw_parameters = yes
+plot_varying_vgasw = yes
+plot_varying_mu = yes
+compute_bound_state = yes
+compute_cross_section = yes
+
+[GASW_PARAMETERS]
+# Target confinement depths (comma-separated)
+target_depths = 0.30, 0.46, 0.56, 1.03
+# Fixed parameters
+Z = 1.0
+sigma = 1.70
+r_c = 6.7
+Delta = 2.8
+R_const = -24.5
+
+[VARYING_VGASW]
+# Fixed Debye parameter for V_GASW scan
+mu_fixed = 0.0
+plot_range = 0, 16
+
+[VARYING_MU]
+# Debye screening values to test (comma-separated)
+mu_values = 0.0, 0.25, 0.5, 0.75
+# No cage confinement
+A_fixed = 0.0
+U_fixed = 0.0
+
+[BOUND_STATE]
+# Parameters for reference bound state
+A_cage = 0.0
+U_cage = 0.0
+mu_bound = 0.0
+ell_bound = 0
+
+[CROSS_SECTION]
+# Photoionization calculation
+ell_continuum = 1
+# Photoelectron energy range (min, max, num_points)
+E_pe_range = 0.05, 2.0, 100
+
+[NUMERICAL]
+R_max = 60.0
+N_points = 6000
+continuum_R_max = 120.0
+continuum_N_points = 6000
+
+[OUTPUT]
+save_csv = yes
+save_plots = yes
+plot_dpi = 300
+show_plots = no

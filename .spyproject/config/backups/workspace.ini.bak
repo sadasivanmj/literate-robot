@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['cross_section.py', 'confined_zero_mu.py', 'hydrogen cross section validation.py', 'continuum.py', 'normalization.py', 'bound.py', 'different_plasma_cross_section.py', 'qi-plasma-cross_section.py', 'confined-varying-mu.py', 'sahaTablereproduction.py', 'potential.py', 'A whole lot of calculation.py', 'saha_argon.py']
+
+[main]
+version = 0.2.0
+recent_files = []
+
