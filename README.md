@@ -47,8 +47,8 @@ Project_Root/
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/confined-photoionization.git](https://github.com/yourusername/confined-photoionization.git)
-cd confined-photoionization
+git clone https://github.com/sadasivanmj/literate-robot
+cd literate-robot
 
 # Install dependencies
 pip install -r requirements.txt
