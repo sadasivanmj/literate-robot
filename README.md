@@ -1,4 +1,3 @@
-````markdown
 # Photoionization of Confined Atoms (SAE Model)
 
 A computational physics engine for calculating photoionization cross-sections of atoms (H, He, Ne, Ar) under Endohedral Confinement (C60) and Debye Plasma Screening.
@@ -110,6 +109,3 @@ $$ V(r) = V_{atom}(r) + V_{conf}(r) $$
 ## 📄 License
 
 MIT License
-
-```
-```
