@@ -1,7 +1,3 @@
-Here is the updated `README.md`. I have completely rewritten it to reflect the current state of your project: **Multi-Species Support**, **SAE Physics Verification**, and the **New Folder Structure**.
-
-This version is ready for your supervisor or GitHub.
-
 ````markdown
 # Photoionization of Confined Atoms (SAE Model)
 
