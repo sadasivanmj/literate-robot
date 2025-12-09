@@ -1,8 +1,3 @@
-Here is the updated `README.md`. I have completely rewritten it to reflect the current state of your project: **Multi-Species Support**, **SAE Physics Verification**, and the **New Folder Structure**.
-
-This version is ready for your supervisor or GitHub.
-
-````markdown
 # Photoionization of Confined Atoms (SAE Model)
 
 A computational physics engine for calculating photoionization cross-sections of atoms (H, He, Ne, Ar) under Endohedral Confinement (C60) and Debye Plasma Screening.
@@ -52,8 +47,8 @@ Project_Root/
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/confined-photoionization.git](https://github.com/yourusername/confined-photoionization.git)
-cd confined-photoionization
+git clone https://github.com/sadasivanmj/literate-robot
+cd literate-robot
 
 # Install dependencies
 pip install -r requirements.txt
@@ -114,6 +109,3 @@ $$ V(r) = V_{atom}(r) + V_{conf}(r) $$
 ## 📄 License
 
 MIT License
-
-```
-```
